@@ -3,8 +3,9 @@
 > Stay focused. Move forward. One task at a time.
 
 <!-- Replace the image below with a real screenshot or banner of your app -->
-![Stride App LOGO] (<img width="150" height="150" alt="app" src="https://github.com/user-attachments/assets/4483ef3e-4ed5-4af9-a3f9-7c920628e5cd" />
-)
+Stride App LOGO
+<img width="150" height="150" alt="app" src="https://github.com/user-attachments/assets/4483ef3e-4ed5-4af9-a3f9-7c920628e5cd" />
+
 
 ---
 
