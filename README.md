@@ -13,18 +13,17 @@
 <!-- Add your screenshots here. See the guide at the bottom of this README for how to do it. -->
 
 | Home Screen |
-| ![Home](<img width="600" height="1440" alt="Screenshot_20260416_175654" src="https://github.com/user-attachments/assets/63b3cf25-2c66-4afc-aee1-45ae7df99ea2" />
-)
+ <img width="600" height="1440" alt="Screenshot_20260416_175654" src="https://github.com/user-attachments/assets/63b3cf25-2c66-4afc-aee1-45ae7df99ea2" />
+
 
 ---
 
 ## 🎬 Demo
 
-[![Watch the Demo](
+Watch the Demo
 
 https://github.com/user-attachments/assets/d520d00b-a013-4589-83e3-65a4ba8eb35b
 
-)]
 
 > Click the image above to watch a demo of Stride in action.
 
