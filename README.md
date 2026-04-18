@@ -3,7 +3,7 @@
 > Stay focused. Move forward. One task at a time.
 
 <!-- Replace the image below with a real screenshot or banner of your app -->
-![Stride App LOGO] (<img width="500" height="500" alt="app" src="https://github.com/user-attachments/assets/4483ef3e-4ed5-4af9-a3f9-7c920628e5cd" />
+![Stride App LOGO] (<img width="300" height="300" alt="app" src="https://github.com/user-attachments/assets/4483ef3e-4ed5-4af9-a3f9-7c920628e5cd" />
 )
 
 ---
@@ -13,15 +13,12 @@
 <!-- Add your screenshots here. See the guide at the bottom of this README for how to do it. -->
 
 | Home Screen |
-|---|---|---|
 | ![Home](<img width="600" height="1440" alt="Screenshot_20260416_175654" src="https://github.com/user-attachments/assets/63b3cf25-2c66-4afc-aee1-45ae7df99ea2" />
 )
 
 ---
 
 ## 🎬 Demo
-
-<!-- Add your demo video here. See the guide at the bottom of this README for how to do it. -->
 
 [![Watch the Demo](
 
@@ -74,6 +71,7 @@ open main.dart and run emulator
 ---
 
 ## 🗂️ Project Structure
+
 Stride-A_Todo_App/
 │
 ├── android/                  # Android-specific native code
@@ -112,12 +110,6 @@ Contributions are welcome! Here's how you can help:
 3. Commit your changes: `git commit -m "Add some feature"`
 4. Push to the branch: `git push origin feature/your-feature-name`
 5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
