@@ -3,7 +3,8 @@
 > Stay focused. Move forward. One task at a time.
 
 <!-- Replace the image below with a real screenshot or banner of your app -->
-![Stride App Banner](assets/icon.png)
+![Stride App Banner](<img width="500" height="500" alt="app" src="https://github.com/user-attachments/assets/4483ef3e-4ed5-4af9-a3f9-7c920628e5cd" />
+)
 
 ---
 
@@ -13,7 +14,8 @@
 
 | Home Screen | Add Task | Task Completed |
 |---|---|---|
-| ![Home](assets/screenshots/home.png)
+| ![Home](<img width="1080" height="2400" alt="Screenshot_20260416_175654" src="https://github.com/user-attachments/assets/63b3cf25-2c66-4afc-aee1-45ae7df99ea2" />
+)
 
 ---
 
@@ -21,7 +23,11 @@
 
 <!-- Add your demo video here. See the guide at the bottom of this README for how to do it. -->
 
-[![Watch the Demo](assets/screenshots/home.png)](assets/demo.mp4)
+[![Watch the Demo](
+
+https://github.com/user-attachments/assets/d520d00b-a013-4589-83e3-65a4ba8eb35b
+
+)](assets/demo.mp4)
 
 > Click the image above to watch a demo of Stride in action.
 
@@ -109,68 +115,3 @@ This project is licensed under the [MIT License](LICENSE).
 - GitHub: [@SahilSiddiqui-dev](https://github.com/SahilSiddiqui-dev)
 
 ---
-
----
-
-# 📷 Guide: How to Add Screenshots & Videos to This README
-
-## ➕ Adding Screenshots
-
-### Step 1 — Take Screenshots
-- Take screenshots of your app (Windows: `Win + Shift + S`, Mac: `Cmd + Shift + 4`)
-- Save them as `.png` or `.jpg` files
-
-### Step 2 — Upload to Your Repo
-1. Go to your GitHub repository
-2. Click **Add file → Upload files**
-3. Create a folder called `assets/screenshots/` and upload your images there
-4. Commit the files
-
-### Step 3 — Reference in README
-Use this Markdown syntax:
-```markdown
-![Description of image](assets/screenshots/your-image-name.png)
-```
-
-Or for a table layout (like in this README):
-```markdown
-| Screen 1 | Screen 2 |
-|---|---|
-| ![Home](assets/screenshots/home.png) | ![Add](assets/screenshots/add.png) |
-```
-
----
-
-## 🎬 Adding a Demo Video
-
-### Option A — Upload to GitHub (for short videos < 10MB)
-1. Go to your repository on GitHub
-2. Open or edit this `README.md` file
-3. **Drag and drop** your `.mp4` video directly into the editor — GitHub will auto-upload it and give you a URL
-4. It will look like:
-
-```markdown
-https://github.com/user-attachments/assets/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
-```
-
-Paste that URL directly in the README and GitHub will render it as an embedded video:
-```markdown
-https://github.com/user-attachments/assets/your-video-url-here
-```
-
-### Option B — Use a YouTube / Loom Link (recommended for longer videos)
-1. Upload your screen recording to [YouTube](https://youtube.com) or [Loom](https://loom.com)
-2. Use this format in the README to show a clickable thumbnail:
-
-```markdown
-[![Demo Video](assets/screenshots/home.png)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-```
-
-> The image acts as a thumbnail — clicking it opens the video in a new tab.
-
----
-
-## 💡 Pro Tips
-- Use [Kap](https://getkap.co/) (Mac) or [ShareX](https://getsharex.com/) (Windows) to record your screen as a GIF or MP4
-- Keep GIFs under **5MB** for fast loading
-- Name your files clearly: `home-screen.png`, `add-task.gif`, etc.
