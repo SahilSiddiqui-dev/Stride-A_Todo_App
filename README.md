@@ -70,7 +70,7 @@ open main.dart and run emulator
 ---
 
 ## 🗂️ Project Structure
-
+```text
 Stride-A_Todo_App/
 │
 ├── android/                  # Android-specific native code
@@ -97,6 +97,7 @@ Stride-A_Todo_App/
 ├── pubspec.lock
 ├── Stride.iml                # Android Studio module file
 └── README.md
+```
 
 ---
 
