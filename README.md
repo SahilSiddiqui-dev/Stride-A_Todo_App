@@ -3,7 +3,7 @@
 > Stay focused. Move forward. One task at a time.
 
 <!-- Replace the image below with a real screenshot or banner of your app -->
-![Stride App Banner](<img width="500" height="500" alt="app" src="https://github.com/user-attachments/assets/4483ef3e-4ed5-4af9-a3f9-7c920628e5cd" />
+![Stride App LOGO] (<img width="500" height="500" alt="app" src="https://github.com/user-attachments/assets/4483ef3e-4ed5-4af9-a3f9-7c920628e5cd" />
 )
 
 ---
@@ -12,9 +12,9 @@
 
 <!-- Add your screenshots here. See the guide at the bottom of this README for how to do it. -->
 
-| Home Screen | Add Task | Task Completed |
+| Home Screen |
 |---|---|---|
-| ![Home](<img width="1080" height="2400" alt="Screenshot_20260416_175654" src="https://github.com/user-attachments/assets/63b3cf25-2c66-4afc-aee1-45ae7df99ea2" />
+| ![Home](<img width="600" height="1440" alt="Screenshot_20260416_175654" src="https://github.com/user-attachments/assets/63b3cf25-2c66-4afc-aee1-45ae7df99ea2" />
 )
 
 ---
@@ -27,7 +27,7 @@
 
 https://github.com/user-attachments/assets/d520d00b-a013-4589-83e3-65a4ba8eb35b
 
-)](assets/demo.mp4)
+)]
 
 > Click the image above to watch a demo of Stride in action.
 
@@ -37,22 +37,22 @@ https://github.com/user-attachments/assets/d520d00b-a013-4589-83e3-65a4ba8eb35b
 
 - ✅ Add, edit, and delete tasks effortlessly
 - 📌 Mark tasks as complete or pending
-- 🗂️ Organize tasks by category or priority
 - 💾 Persistent storage — your tasks are saved locally
 - 🌙 Clean and minimal UI for distraction-free productivity
 - 📱 Fully responsive design
+- Many features will be added soon
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
-|---|---|
-| HTML / CSS | Structure & Styling |
-| JavaScript | App Logic |
-| LocalStorage | Data Persistence |
-
-> *(Update this table to match your actual tech stack)*
+| Tool / Tech | Purpose |
+|-------------|---------|
+| **Flutter** | UI framework |
+| **Dart** | Programming language |
+| **Android Studio** | IDE used for development |
+| **SharedPreferences / SQFlite / Hive** | Local storage *(update with what you used)* |
+| **Provider / setState / Bloc** | State management *(update with what you used)* |
 
 ---
 
@@ -67,27 +67,39 @@ git clone https://github.com/SahilSiddiqui-dev/Stride-A_Todo_App.git
 # 2. Navigate into the project directory
 cd Stride-A_Todo_App
 
-# 3. Open in browser
-open index.html
+# 3. Open in android studio/vscode
+open main.dart and run emulator
+
 ```
-
-> If you're using a framework or package manager (e.g. React, npm), update the steps above accordingly.
-
 ---
 
 ## 🗂️ Project Structure
-
-```
 Stride-A_Todo_App/
-├── index.html          # Main HTML file
-├── style.css           # Stylesheet
-├── script.js           # Main JavaScript logic
-├── assets/             # Images, icons, screenshots
+│
+├── android/                  # Android-specific native code
+├── ios/                      # iOS-specific native code
+├── linux/                    # Linux desktop support
+├── macos/                    # macOS desktop support
+├── windows/                  # Windows desktop support
+├── web/                      # Web platform support
+│
+├── assets/                   # App assets (logo, images, screenshots)
+│   ├── logo.png
 │   └── screenshots/
-└── README.md           # You are here!
-```
-
-> *(Update this to match your actual file structure)*
+│
+├── lib/                      # Main Dart source code
+│   └── main.dart
+│
+├── test/                     # Unit & widget tests
+├── build/                    # Build output (auto-generated)
+│
+├── .gitignore
+├── .metadata
+├── analysis_options.yaml     # Dart analyzer / linting rules
+├── pubspec.yaml              # Project dependencies & metadata
+├── pubspec.lock
+├── Stride.iml                # Android Studio module file
+└── README.md
 
 ---
 
