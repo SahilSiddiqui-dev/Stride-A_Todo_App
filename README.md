@@ -13,7 +13,7 @@
 <!-- Add your screenshots here. See the guide at the bottom of this README for how to do it. -->
 
 | Home Screen |
- <img width="600" height="1440" alt="Screenshot_20260416_175654" src="https://github.com/user-attachments/assets/63b3cf25-2c66-4afc-aee1-45ae7df99ea2" />
+ <img width="300" height="800" alt="Screenshot_20260416_175654" src="https://github.com/user-attachments/assets/63b3cf25-2c66-4afc-aee1-45ae7df99ea2" />
 
 
 ---
