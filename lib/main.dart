@@ -14,6 +14,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  final GlobalKey<ScaffoldMessengerState> rootScaffoldMessengerKey = GlobalKey<ScaffoldMessengerState>();
   final TextEditingController _controller = TextEditingController();
   List<Map<String, dynamic>> todoList = [];
 
@@ -27,7 +28,7 @@ class _MyAppState extends State<MyApp> {
         todoList.add({'name': taskName, 'isDone': false});
         _controller.clear();
       } else {
-        ScaffoldMessenger.of(context).showSnackBar(
+        rootScaffoldMessengerKey.currentState?.showSnackBar(
           const SnackBar(content: Text('Task already exists!')),
         );
       }
@@ -74,6 +75,7 @@ class _MyAppState extends State<MyApp> {
     String formattedDate = "${months[now.month - 1]} ${now.day}";
 
     return MaterialApp(
+      scaffoldMessengerKey: rootScaffoldMessengerKey,
       debugShowCheckedModeBanner: false,
       title: 'Focus App',
       home: Scaffold(
